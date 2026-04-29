@@ -2,9 +2,9 @@
   <img src="https://github.com/antonkurenkov/openbook/blob/main/1/df00b2c0-1dd7-4051-8844-b0e4e81df852.png" width="420" alt="Обложка книги Oblivio Duorum">
 </p>
 
-<h1 align="center">Рецензия на «Oblivio Duorum / Забвение двоих»</h1>
+<h1 align="center">«Oblivio Duorum / Забвение двоих»</h1>
 
-<p align="center"><i>Мрачный архивный роман о том, как власть переписывает не только историю, но и саму возможность помнить.</i></p>
+<p align="center"><i>Архивный гримдарк о том, как власть переписывает не только историю, но и саму возможность помнить.</i></p>
 
 ---
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Что в книге особенно хорошо
+## Что в книге особенно хорошо (по некоторым нейромнениям, покуда автору не доказано обратное)
 
 ### 1) Атмосфера
 
@@ -50,14 +50,14 @@
 ## Визуальный ряд
 
 <p align="center">
-  <img src="1/images/new/01.jpg" width="32%" alt="Иллюстрация 1">
-  <img src="1/images/new/05.jpg" width="32%" alt="Иллюстрация 2">
-  <img src="1/images/new/10.jpg" width="32%" alt="Иллюстрация 3">
+  <img src="images/new/01.jpg" width="32%" alt="Иллюстрация 1">
+  <img src="images/new/05.jpg" width="32%" alt="Иллюстрация 2">
+  <img src="images/new/10.jpg" width="32%" alt="Иллюстрация 3">
 </p>
 
 <p align="center">
-  <img src="1/images/new/12.jpg" width="48%" alt="Иллюстрация 4">
-  <img src="1/images/new/16.jpg" width="48%" alt="Иллюстрация 5">
+  <img src="images/new/12.jpg" width="48%" alt="Иллюстрация 4">
+  <img src="images/new/16.jpg" width="48%" alt="Иллюстрация 5">
 </p>
 
 ---

@@ -23,3 +23,10 @@
 
 Основные ссылки и тексты находятся прямо в `index.html`.
 Цвета и размеры — в начале `styles.css`, в блоке `:root`.
+
+
+## Обновления
+
+- Добавлены `assets/favicon.svg`, `assets/favicon-32.png`, `assets/apple-touch-icon.png`.
+- Палитра сайта переведена с зелёной на тёмно-синюю.
+- Заголовок `OBLIVIO DUORUM` получил hover-слой с отдельной neural-текстурой в `neural.js`.

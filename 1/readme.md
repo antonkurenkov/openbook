@@ -8,6 +8,35 @@
 
 ---
 
+## Читать онлайн
+
+- [Оглавление Markdown-издания](https://github.com/antonkurenkov/openbook/tree/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md)
+- [Файл оглавления `index.md`](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/index.md)
+
+### Главы
+
+- [Обложка / титульный лист](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/cover.md)
+- [Apocryphum: De numeris absentium](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-0.md)
+- [I. Dispersae Reliquiae / Технический мусор](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-1.md)
+- [II. Silentium Impositum / Обет молчания](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-2.md)
+- [III. Absentiae Scriptura / Почерк отсутствия](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-3.md)
+- [IV. Custodes Pallidi / Бледный Дозор](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-4.md)
+- [V. Custodes Viarum / Хранители Пути](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-5.md)
+- [VI. Vix Fuit / То, чего не должно быть](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-6.md)
+- [VII. Limes Imperii / Имперский предел](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-7.md)
+- [VIII. Monolithus Ymgi / Монолит Имги](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-8.md)
+- [IX. Respira / Дыши](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-9.md)
+- [X. Schema Divisum / Чертёж](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-10.md)
+- [XI. Via Falsa / Ложный маршрут](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-11.md)
+- [XII. Malum](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-12.md)
+- [XIII. Arcus Vetrа́ / Арка Ветра́](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-13.md)
+- [XIV. Colloquium Extremum / Последний разговор](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-14.md)
+- [XV. Vestigia Duorum / Пепел двух](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-15.md)
+- [XVI. Oblivio memoriae / Забвение памяти](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-16.md)
+- [Vas Haeresis / Контейнер ереси](https://github.com/antonkurenkov/openbook/blob/main/1/page/oblivio-duorum-markdown/oblivio_duorum_md/1-17.md)
+
+---
+
 ## Коротко
 
 **«Oblivio Duorum»** — сильный, плотный и стилистически выверенный роман в декорациях далёкого техно-теократического будущего. Это текст не о сражениях как таковых, а о последствиях: о документах, следах, пробелах и о человеке, который пытается восстановить правду там, где истина заранее объявлена опасной.

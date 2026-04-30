@@ -3,24 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Зелёная дверь — openbook</title>
-  <meta name="description" content="Лаконичный сайт открытого цикла «Зелёная дверь»: книги, обложки в высоком ключе и openbook как ветвящийся контейнер.">
-  <meta name="theme-color" content="#fbfaf4">
-  <meta property="og:title" content="Зелёная дверь">
-  <meta property="og:description" content="Открытый научно-футуристический цикл как ветвящийся контейнер.">
+  <title>ЗЕЛЁНАЯ ДВЕРЬ — openbook</title>
+  <meta name="description" content="Сайт открытого цикла «Зелёная дверь»: книги, обложки, ветвящееся издание и репозиторий openbook.">
+  <meta name="theme-color" content="#FAF8F3">
+  <meta property="og:title" content="ЗЕЛЁНАЯ ДВЕРЬ">
+  <meta property="og:description" content="Открытое издание, тонкая графика и ветвящийся контейнер книг.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:image" content="assets/images/arbor-exilii-lineart.jpg">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Перейти к содержанию</a>
 
   <header class="site-header" data-header>
-    <a class="brand" href="#top" aria-label="Зелёная дверь — наверх">
-      <span class="brand-mark" aria-hidden="true"></span>
-      <span>Зелёная дверь</span>
+    <a class="brand" href="#top" aria-label="ЗЕЛЁНАЯ ДВЕРЬ — наверх">
+      <img src="assets/favicon.svg" width="32" height="32" alt="" aria-hidden="true">
+      <span>ЗЕЛЁНАЯ ДВЕРЬ</span>
     </a>
     <nav class="main-nav" aria-label="Навигация">
       <a href="#cycle">Цикл</a>
@@ -34,78 +33,64 @@
   <main id="main">
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="hero-copy reveal">
-        <p class="eyebrow">Openbook · branching edition</p>
-        <h1 id="hero-title">Зелёная дверь</h1>
+        <p class="eyebrow">OPENBOOK · BRANCHING EDITION</p>
+        <h1 id="hero-title">ЗЕЛЁНАЯ<br>ДВЕРЬ</h1>
         <p class="hero-lead">Научно-футуристический цикл о человеке, памяти и выборе в мире, где почти всё можно заменить.</p>
         <div class="hero-actions" aria-label="Основные ссылки">
           <a class="button button-primary" href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer">Открыть openbook</a>
-          <a class="button button-secondary" href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer">Oblivio Duorum</a>
+          <a class="button button-secondary" href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer">Первая книга</a>
         </div>
       </div>
 
-      <figure class="hero-art reveal" aria-label="Символ цикла">
-        <button class="image-button" type="button" data-lightbox="assets/images/tree-door-lineart.jpg" aria-label="Открыть изображение крупно">
-          <img src="assets/images/tree-door-lineart.jpg" width="1200" height="1200" alt="Лайнарт: дерево с зелёной дверью в центре">
-        </button>
-        <figcaption>Высокий ключ · лайнарт · зелёный порог</figcaption>
+      <figure class="hero-art reveal">
+        <img src="assets/brand/01-hero-threshold.svg" width="1600" height="1000" alt="Лайнарт-композиция: зелёная дверь, геометрия и порог">
       </figure>
     </section>
 
-    <section class="section split" id="cycle" aria-labelledby="cycle-title">
-      <div class="section-label">De vita vera</div>
-      <div class="split-grid">
-        <h2 id="cycle-title">Цикл не про технологическое бессмертие, а про цену сохранённой личности.</h2>
-        <div class="prose">
-          <p>«Зелёная дверь» устроена как серия книг вокруг одного образа: двери между возможностью и решением. Технологии здесь не отменяют человеческое — они проверяют, что в человеке нельзя заменить без утраты смысла.</p>
-          <p>Поэтому визуальный язык сайта собран в высоком ключе: много воздуха, тонкий контур, почти чертёжная графика и один плотный цвет — зелёный цвет самой двери.</p>
-        </div>
+    <section class="section intro" id="cycle" aria-labelledby="cycle-title">
+      <div class="section-mark">一</div>
+      <div class="section-copy">
+        <p class="kicker">цикл</p>
+        <h2 id="cycle-title">Дверь здесь важнее стены.</h2>
+        <p>«Зелёная дверь» — это дуга книг о личности, связи и выборе. Технологии не отменяют человеческое; они только резче показывают, что именно нельзя заменить без потери смысла.</p>
       </div>
+      <img class="branch branch-one" src="assets/ui/branch-peach.svg" width="640" height="210" alt="" aria-hidden="true">
     </section>
 
     <section class="section container-section" id="container" aria-labelledby="container-title">
-      <div class="section-label">Editio aperta</div>
-      <div class="container-card reveal">
+      <div class="container-panel reveal">
         <div>
+          <p class="kicker">open edition</p>
           <h2 id="container-title">Открытое издание как ветвящийся контейнер</h2>
-          <p>Это не закрытая витрина с единственным финальным файлом. Openbook — контейнер, в котором могут жить исходники, Markdown-версии, обложки, заметки, альтернативные сборки и будущие ветви чтения.</p>
+          <p>Openbook — не витрина с одной финальной сборкой. Это контейнер, где рядом живут исходники, Markdown-версии, обложки, ветки, форки и будущие траектории чтения.</p>
         </div>
-        <ol class="container-list" aria-label="Принципы openbook">
-          <li><span>01</span><strong>Ствол</strong><br>авторская линия цикла и основные издания.</li>
-          <li><span>02</span><strong>Ветви</strong><br>черновики, версии, производные траектории и форки.</li>
-          <li><span>03</span><strong>Контейнер</strong><br>репозиторий как форма публикации, а не просто склад файлов.</li>
-        </ol>
+        <img src="assets/brand/02-hero-branching-container.svg" width="1400" height="900" loading="lazy" alt="Абстрактная схема ветвящегося контейнера">
       </div>
     </section>
 
     <section class="section books" id="books" aria-labelledby="books-title">
       <div class="section-heading">
-        <p class="section-label">Libri</p>
+        <p class="kicker">libri</p>
         <h2 id="books-title">Семь книг в одной дуге</h2>
       </div>
 
       <div class="book-list">
-        <article class="book-row reveal">
-          <span class="book-index">I / Ø</span>
-          <div>
-            <h3>Oblivio Duorum</h3>
-            <p>Первое издание. Архивный гримдарк о памяти, следах и запрете на связь между двумя стёртыми историями.</p>
-          </div>
+        <article class="book-card reveal">
+          <span>I / Ø</span>
+          <h3>OBLIVIO DUORUM</h3>
+          <p>Архив, память, стёртые связи и первая дверь в корпус цикла.</p>
           <a href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer">Открыть</a>
         </article>
-        <article class="book-row reveal">
-          <span class="book-index">II / Ø</span>
-          <div>
-            <h3>Arbor Exilii</h3>
-            <p>Дерево изгнания, предел милосердия и зелёная дверь как знак не только выхода, но и ответственности.</p>
-          </div>
+        <article class="book-card reveal">
+          <span>II / Ø</span>
+          <h3>ARBOR EXILII</h3>
+          <p>Дерево изгнания, предел милосердия и дверь как ответственность.</p>
           <a href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer">Openbook</a>
         </article>
-        <article class="book-row reveal muted-row">
-          <span class="book-index">III–VII</span>
-          <div>
-            <h3>Дальнейшие ветви</h3>
-            <p>Следующие книги цикла остаются частью контейнера: их можно публиковать, пересобирать и связывать с общим корпусом.</p>
-          </div>
+        <article class="book-card reveal">
+          <span>III–VII</span>
+          <h3>ДАЛЬНЕЙШИЕ ВЕТВИ</h3>
+          <p>Продолжения остаются частью контейнера: они могут уточняться, ветвиться и пересобираться.</p>
           <a href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer">Репозиторий</a>
         </article>
       </div>
@@ -113,53 +98,56 @@
 
     <section class="section covers" id="covers" aria-labelledby="covers-title">
       <div class="section-heading compact">
-        <p class="section-label">Lineart</p>
+        <p class="kicker">line art</p>
         <h2 id="covers-title">Обложки и знаки</h2>
-        <p>Визуальная система строится не на иллюстративной перегруженности, а на пороге, симметрии, тонких линиях и зелёном акценте.</p>
+        <p>Первый экран оставлен спокойным: дверь, рамка, линия. Более насыщенные образы вынесены ниже — как страницы архива, а не как ударный баннер.</p>
       </div>
 
       <div class="cover-grid">
-        <figure class="cover-tile tall reveal">
-          <button class="image-button" type="button" data-lightbox="assets/images/oblivio-duorum-lineart.jpg">
-            <img src="assets/images/oblivio-duorum-lineart.jpg" width="760" height="1140" loading="lazy" alt="Обложка Oblivio Duorum в стиле лайнарт">
+        <figure class="cover-tile reveal">
+          <button class="image-button" type="button" data-lightbox="assets/images/oblivio-duorum-lineart.jpg" aria-label="Открыть Oblivio Duorum крупно">
+            <img src="assets/images/oblivio-duorum-lineart.jpg" width="760" height="1140" loading="lazy" alt="Обложка Oblivio Duorum в чёрно-белом лайнарт-стиле">
           </button>
-          <figcaption>Oblivio Duorum</figcaption>
+          <figcaption>OBLIVIO DUORUM</figcaption>
+        </figure>
+        <figure class="cover-tile reveal featured-cover">
+          <button class="image-button" type="button" data-lightbox="assets/images/arbor-exilii-lineart.jpg" aria-label="Открыть Arbor Exilii крупно">
+            <img src="assets/images/arbor-exilii-lineart.jpg" width="900" height="1272" loading="lazy" alt="Обложка Arbor Exilii в высоком ключе">
+          </button>
+          <figcaption>ARBOR EXILII</figcaption>
         </figure>
         <figure class="cover-tile reveal">
-          <button class="image-button" type="button" data-lightbox="assets/images/green-door-color.jpg">
-            <img src="assets/images/green-door-color.jpg" width="760" height="1140" loading="lazy" alt="Зелёная дверь, цветовой референс">
+          <button class="image-button" type="button" data-lightbox="assets/images/gate-lineart.jpg" aria-label="Открыть архитектурный знак крупно">
+            <img src="assets/images/gate-lineart.jpg" width="720" height="1018" loading="lazy" alt="Архитектурный знак порога в лайнарт-стиле">
           </button>
-          <figcaption>Цвет двери</figcaption>
+          <figcaption>ПОРОГ</figcaption>
         </figure>
-        <figure class="cover-tile reveal">
-          <button class="image-button" type="button" data-lightbox="assets/images/gate-lineart.jpg">
-            <img src="assets/images/gate-lineart.jpg" width="720" height="1018" loading="lazy" alt="Вертикальная архитектурная форма в лайнарт-стиле">
+        <figure class="cover-tile reveal wide-cover">
+          <button class="image-button" type="button" data-lightbox="assets/images/tree-door-lineart.jpg" aria-label="Открыть символ дерева и двери крупно">
+            <img src="assets/images/tree-door-lineart.jpg" width="1200" height="1200" loading="lazy" alt="Дерево и зелёная дверь, вынесенные в раздел обложек">
           </button>
-          <figcaption>Порог</figcaption>
-        </figure>
-        <figure class="cover-tile tall reveal">
-          <button class="image-button" type="button" data-lightbox="assets/images/arbor-exilii-lineart.jpg">
-            <img src="assets/images/arbor-exilii-lineart.jpg" width="900" height="1272" loading="lazy" alt="Обложка Arbor Exilii в стиле высокого ключа">
-          </button>
-          <figcaption>Arbor Exilii</figcaption>
+          <figcaption>ВЕТВЛЕНИЕ</figcaption>
         </figure>
       </div>
     </section>
 
-    <section class="section read-section" aria-labelledby="read-title">
-      <p class="section-label">Legere</p>
-      <h2 id="read-title">Читать и пересобирать</h2>
-      <p>Сайт рассчитан на GitHub Pages: положите содержимое архива в папку <code>docs</code> репозитория <code>openbook</code> и включите публикацию из этой папки.</p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer">Репозиторий цикла</a>
-        <a class="button button-secondary" href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer">Первая книга</a>
+    <section class="section final-cta" aria-labelledby="final-title">
+      <img src="assets/ui/seal-peach.svg" width="220" height="220" loading="lazy" alt="" aria-hidden="true">
+      <div>
+        <p class="kicker">repo</p>
+        <h2 id="final-title">Читать, хранить, ветвить</h2>
+        <p>Сайт ведёт к двум точкам: общий репозиторий цикла и отдельное издание первой книги.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer">Openbook</a>
+          <a class="button button-secondary" href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer">Oblivio Duorum</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Зелёная дверь · openbook · branching edition</p>
-    <p><a href="#top">Наверх</a></p>
+    <span>ЗЕЛЁНАЯ ДВЕРЬ</span>
+    <a href="#top">Наверх</a>
   </footer>
 
   <dialog class="lightbox" data-lightbox-dialog aria-label="Просмотр изображения">

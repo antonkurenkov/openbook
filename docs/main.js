@@ -1,17 +1,17 @@
 (() => {
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   const revealItems = document.querySelectorAll('.reveal');
-  if (!prefersReducedMotion && 'IntersectionObserver' in window) {
-    const revealObserver = new IntersectionObserver((entries) => {
+  if (!reducedMotion && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
         entry.target.classList.add('is-visible');
-        revealObserver.unobserve(entry.target);
+        observer.unobserve(entry.target);
       });
-    }, { threshold: 0.14 });
+    }, { threshold: 0.16 });
 
-    revealItems.forEach((item) => revealObserver.observe(item));
+    revealItems.forEach((item) => observer.observe(item));
   } else {
     revealItems.forEach((item) => item.classList.add('is-visible'));
   }
@@ -21,18 +21,18 @@
     .map((link) => document.querySelector(link.getAttribute('href')))
     .filter(Boolean);
 
-  if ('IntersectionObserver' in window && sections.length) {
+  if ('IntersectionObserver' in window && sections.length > 0) {
     const navObserver = new IntersectionObserver((entries) => {
-      const visible = entries
+      const activeEntry = entries
         .filter((entry) => entry.isIntersecting)
         .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
 
-      if (!visible) return;
-
+      if (!activeEntry) return;
+      const activeId = `#${activeEntry.target.id}`;
       navLinks.forEach((link) => {
-        link.classList.toggle('is-active', link.getAttribute('href') === `#${visible.target.id}`);
+        link.classList.toggle('is-active', link.getAttribute('href') === activeId);
       });
-    }, { rootMargin: '-28% 0px -58% 0px', threshold: [0.12, 0.36, 0.6] });
+    }, { rootMargin: '-26% 0px -58% 0px', threshold: [0.14, 0.34, 0.58] });
 
     sections.forEach((section) => navObserver.observe(section));
   }
@@ -44,7 +44,7 @@
   document.querySelectorAll('[data-lightbox]').forEach((button) => {
     button.addEventListener('click', () => {
       const src = button.getAttribute('data-lightbox');
-      const image = button.querySelector('img');
+      const preview = button.querySelector('img');
       if (!src) return;
 
       if (!dialog || !dialogImage || typeof dialog.showModal !== 'function') {
@@ -53,15 +53,16 @@
       }
 
       dialogImage.src = src;
-      dialogImage.alt = image ? image.alt : '';
+      dialogImage.alt = preview ? preview.alt : '';
       dialog.showModal();
     });
   });
 
-  if (dialog && closeButton) {
+  if (dialog && closeButton && dialogImage) {
     const closeDialog = () => {
       dialog.close();
-      if (dialogImage) dialogImage.removeAttribute('src');
+      dialogImage.removeAttribute('src');
+      dialogImage.alt = '';
     };
 
     closeButton.addEventListener('click', closeDialog);
@@ -69,7 +70,8 @@
       if (event.target === dialog) closeDialog();
     });
     dialog.addEventListener('cancel', () => {
-      if (dialogImage) dialogImage.removeAttribute('src');
+      dialogImage.removeAttribute('src');
+      dialogImage.alt = '';
     });
   }
 })();

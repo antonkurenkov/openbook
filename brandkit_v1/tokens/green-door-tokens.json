@@ -1,0 +1,27 @@
+{
+  "name": "Green Door / Зелёная Дверь brand kit",
+  "description": "High-key line-art identity system for a literary open edition / branching container website.",
+  "palette": {
+    "ivory": "#F7F4EC",
+    "paper": "#FBFAF6",
+    "graphite": "#222522",
+    "gray_ink": "#A7AAA2",
+    "pale_line": "#D8D8CF",
+    "door_green": "#427842",
+    "moss_dark": "#2E5634",
+    "moss_light": "#8DA386",
+    "brass": "#B79A5B"
+  },
+  "typography": {
+    "title": "Georgia / Times-like elegant serif, uppercase, wide tracking",
+    "body": "Inter / system sans-serif for web readability",
+    "subtitle": "Italic serif, muted moss green"
+  },
+  "rules": [
+    "Use warm white space as the main field.",
+    "Keep black/graphite lines thin and precise.",
+    "Use muted door green as the only strong accent.",
+    "Use branching as route/container diagrams, not as body symbolism.",
+    "Avoid lush central tree imagery, erotic/fertility associations, dark gothic lighting, neon, and heavy shading."
+  ]
+}

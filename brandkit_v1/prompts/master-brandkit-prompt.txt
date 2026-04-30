@@ -1,0 +1,9 @@
+Create visual assets for the literary web project “Зелёная Дверь / The Green Door”.
+
+Style: high-key minimalist line art, warm white paper background, thin graphite lines, pale architectural geometry, muted patinated green accent inspired by an old painted green door. The mood is literary, archival, quiet, precise, and slightly mystical without becoming dark fantasy.
+
+Core motif: the green door as threshold, portal, editorial container, and open branching structure. Branching must be abstract: route diagrams, nested frames, thin arcs, nodes, coordinates, page margins, archive marks, subtle botanical traces. Do not make a tree the central symbol.
+
+Generate modular website identity elements: hero illustration, ornamental borders, section dividers, icon set, chapter/card frames, background patterns, button accents, monogram/emblem.
+
+Avoid: erotic symbolism, yonic or womb-like shapes, fertility/goddess motifs, tree-as-body symbolism, lush fantasy tree, fruit theme, heavy gothic mood, neon glow, saturated colors, photorealism, thick comic lines, clutter.

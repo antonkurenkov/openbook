@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Зелёная дверь">
-  <rect width="64" height="64" rx="16" fill="#fbfaf4"/>
-  <rect x="18" y="10" width="28" height="44" rx="2" fill="none" stroke="#437641" stroke-width="4"/>
-  <rect x="24" y="17" width="16" height="30" rx="1" fill="none" stroke="#437641" stroke-width="1.5" opacity=".45"/>
-  <circle cx="38" cy="32" r="2.6" fill="#437641"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#FAF8F3"/>
+  <rect x="19" y="13" width="26" height="39" rx="2" fill="#5A6F50" stroke="#344F39" stroke-width="2"/>
+  <rect x="24" y="18" width="13" height="29" fill="none" stroke="#FAF8F3" stroke-opacity=".42" stroke-width="1.5"/>
+  <circle cx="39" cy="33" r="2.3" fill="#F3D8CF" stroke="#222222" stroke-width=".7"/>
 </svg>

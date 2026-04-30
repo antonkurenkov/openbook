@@ -1,0 +1,55 @@
+:root {
+  --gd-paper: #FBFAF6;
+  --gd-ivory: #F7F4EC;
+  --gd-graphite: #222522;
+  --gd-gray-ink: #A7AAA2;
+  --gd-pale-line: #D8D8CF;
+  --gd-door-green: #427842;
+  --gd-moss-dark: #2E5634;
+  --gd-moss-light: #8DA386;
+  --gd-brass: #B79A5B;
+
+  --gd-line-thin: 1px;
+  --gd-line-main: 1.25px;
+  --gd-radius-card: 16px;
+  --gd-radius-section: 24px;
+  --gd-letterspace-title: 0.18em;
+  --gd-letterspace-ui: 0.08em;
+  --gd-font-serif: Georgia, 'Times New Roman', serif;
+  --gd-font-ui: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.gd-page {
+  background: var(--gd-paper);
+  color: var(--gd-graphite);
+  font-family: var(--gd-font-ui);
+}
+
+.gd-title {
+  font-family: var(--gd-font-serif);
+  letter-spacing: var(--gd-letterspace-title);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.gd-subtitle {
+  color: var(--gd-moss-dark);
+  font-family: var(--gd-font-serif);
+  font-style: italic;
+  letter-spacing: var(--gd-letterspace-ui);
+}
+
+.gd-card {
+  border: 1px solid var(--gd-pale-line);
+  border-radius: var(--gd-radius-card);
+  background: color-mix(in srgb, var(--gd-paper) 94%, white 6%);
+}
+
+.gd-button {
+  border: 1px solid var(--gd-door-green);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gd-graphite);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}

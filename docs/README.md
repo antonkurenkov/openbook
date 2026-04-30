@@ -1,32 +1,34 @@
-# Oblivio Duorum landing
+# Зелёная дверь — GitHub Pages site
 
-Статический лендинг для первого открытого издания книги «Oblivio Duorum / Забвение двоих».
+Статический лендинг для репозитория `antonkurenkov/openbook`.
 
-## Файлы
+## Состав
 
-- `index.html` — разметка страницы.
-- `styles.css` — вся визуальная система.
-- `neural.js` — лёгкий canvas-фон в духе neural/grid-эстетики.
-- `main.js` — reveal-анимации, scroll progress, активная навигация, модальное окно галереи.
+- `index.html` — главная страница цикла.
+- `styles.css` — лайнарт-стиль, адаптивная сетка, high-key оформление.
+- `main.js` — мягкая анимация фона, раскрытие карточек, lightbox для обложки.
+- `assets/` — favicon, обложка в высоком ключе и SVG-карточки книг.
+- `.nojekyll` — отключает Jekyll-обработку на GitHub Pages.
 
-## Как развернуть на GitHub Pages
+## Деплой
 
-1. Распакуйте архив.
-2. Залейте файлы в корень репозитория или в папку `/docs`.
-3. В GitHub откройте `Settings → Pages`.
-4. Выберите ветку и папку публикации: `/root` или `/docs`.
-5. Сохраните настройки.
+1. Скопируйте содержимое архива в папку `/docs` репозитория `openbook`.
+2. В настройках GitHub Pages выберите:
+   - Source: `Deploy from a branch`
+   - Branch: `main`
+   - Folder: `/docs`
+3. После деплоя сайт будет доступен по адресу:
 
-Сайт не требует сборки, Node.js, npm или сторонних библиотек.
+```text
+https://antonkurenkov.github.io/openbook/
+```
 
-## Настройка
+## Основные ссылки
 
-Основные ссылки и тексты находятся прямо в `index.html`.
-Цвета и размеры — в начале `styles.css`, в блоке `:root`.
+- Openbook: <https://github.com/antonkurenkov/openbook>
+- Oblivio Duorum: <https://github.com/antonkurenkov/oblivio.duorum>
+- Лендинг первой книги: <https://antonkurenkov.github.io/oblivio.duorum/>
 
+## Примечания
 
-## Обновления
-
-- Добавлены `assets/favicon.svg`, `assets/favicon-32.png`, `assets/apple-touch-icon.png`.
-- Палитра сайта переведена с зелёной на тёмно-синюю.
-- Заголовок `OBLIVIO DUORUM` получил hover-слой с отдельной neural-текстурой в `neural.js`.
+Страница заменяет старую витрину первой книги в `/docs` и делает сайт репозитория полноценной входной страницей цикла «Зелёная дверь».

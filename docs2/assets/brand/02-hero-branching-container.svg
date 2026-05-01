@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Green Door brand kit asset">
+  <defs>
+    <style>
+  .bg { fill: #FAF8F3; }
+  .ink { fill: none; stroke: #222222; stroke-width: 1.25; stroke-linecap: round; stroke-linejoin: round; }
+  .ink2 { fill: none; stroke: #222222; stroke-width: 0.85; stroke-linecap: round; stroke-linejoin: round; opacity: .92; }
+  .pale { fill: none; stroke: #D9D7CF; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; }
+  .pale2 { fill: none; stroke: #A1A79D; stroke-width: .75; stroke-linecap: round; stroke-linejoin: round; opacity: .52; }
+  .green { fill: #5A6F50; stroke: #344F39; stroke-width: 1.1; stroke-linejoin: round; }
+  .green-line { fill: none; stroke: #5A6F50; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+  .green-dot { fill: #5A6F50; stroke: none; }
+  .brass { fill: #B89562; stroke: #222222; stroke-width: .45; }
+  .label { fill: #222222; font-family: Georgia, 'Times New Roman', serif; letter-spacing: .18em; }
+  .label-green { fill: #344F39; font-family: Georgia, 'Times New Roman', serif; font-style: italic; letter-spacing: .08em; }
+</style>
+    <filter id="paperNoise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.025"/></feComponentTransfer>
+    </filter>
+    <pattern id="microgrid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" class="pale2" opacity=".18"/>
+      <circle cx="0" cy="0" r="1" fill="#5A6F50" opacity=".25"/>
+    </pattern>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1400" height="900"/>
+  <rect x="0" y="0" width="1400" height="900" fill="url(#microgrid)" opacity=".52"/>
+  <rect x="34" y="34" width="1332" height="832" rx="22" class="pale"/>
+  <path d="M700 92v708" class="pale2"/>
+  <circle cx="700" cy="350" r="250" class="pale"/>
+  <circle cx="700" cy="350" r="168" class="pale2"/>
+  <circle cx="700" cy="350" r="72" class="pale2"/>
+  <g>
+    <path d="M700 520 C650 492 602 500 560 560 C518 620 470 636 410 612" class="pale2"/>
+    <path d="M700 520 C750 492 798 500 840 560 C882 620 930 636 990 612" class="pale2"/>
+    <path d="M700 520 C684 600 636 666 560 720" class="pale2"/>
+    <path d="M700 520 C716 600 764 666 840 720" class="pale2"/>
+    <circle cx="560" cy="560" r="5" class="green-dot" opacity=".58"/>
+    <circle cx="840" cy="560" r="5" class="green-dot" opacity=".58"/>
+    <circle cx="560" cy="720" r="5" class="green-dot" opacity=".58"/>
+    <circle cx="840" cy="720" r="5" class="green-dot" opacity=".58"/>
+  </g>
+  <g transform="translate(642,338)">
+    <rect x="0" y="0" width="116" height="210" class="green"/>
+    <path d="M16 18h84v174H16Z" class="ink2" opacity=".32"/>
+    <path d="M58 0V-108" class="ink2"/>
+    <circle cx="94" cy="108" r="6" class="brass"/>
+    <path d="M0 210h116" class="ink"/>
+  </g>
+  <path d="M450 350H950 M700 100v135 M700 585v185" class="pale2"/>
+  <text x="700" y="112" text-anchor="middle" class="label" font-size="23">OPEN BRANCHING CONTAINER</text>
+  <text x="700" y="810" text-anchor="middle" class="label-green" font-size="21">threshold · archive · route · edition</text>
+
+</svg>

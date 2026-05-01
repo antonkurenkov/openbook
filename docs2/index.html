@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ru" data-lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ЗЕЛЁНАЯ ДВЕРЬ — openbook</title>
+  <meta name="description" content="Сайт открытого цикла «Зелёная дверь»: книги, обложки, ветвящееся издание и репозиторий openbook.">
+  <meta name="theme-color" content="#FAF8F3">
+  <meta property="og:title" content="ЗЕЛЁНАЯ ДВЕРЬ">
+  <meta property="og:description" content="Открытое издание, тонкая графика и ветвящийся контейнер книг.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/arbor-exilii-lineart.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Перейти к содержанию</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="ЗЕЛЁНАЯ ДВЕРЬ — наверх" data-i18n-aria="brandAria">
+      <img src="assets/favicon.svg" width="32" height="32" alt="" aria-hidden="true">
+      <span data-i18n="brand">ЗЕЛЁНАЯ ДВЕРЬ</span>
+    </a>
+    <nav class="main-nav" aria-label="Навигация" data-i18n-aria="navAria">
+      <a href="#cycle" data-i18n="navCycle">Цикл</a>
+      <a href="#container" data-i18n="navContainer">Контейнер</a>
+      <a href="#books" data-i18n="navBooks">Книги</a>
+      <a href="#covers" data-i18n="navCovers">Обложки</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Переключение языка" data-i18n-aria="langAria">
+      <button type="button" data-lang-button="ru" aria-pressed="true">RU</button>
+      <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="header-link" href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer">GitHub</a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">OPENBOOK · BRANCHING EDITION</p>
+        <h1 id="hero-title" data-i18n="heroTitle">ЗЕЛЁНАЯ<br>ДВЕРЬ</h1>
+        <p class="hero-lead" data-i18n="heroLead">Научно-футуристический цикл о человеке, памяти и выборе в мире, где почти всё можно заменить.</p>
+        <div class="hero-actions" aria-label="Основные ссылки" data-i18n-aria="primaryLinksAria">
+          <a class="button button-primary" href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer" data-i18n="ctaOpenbook">Открыть openbook</a>
+          <a class="button button-secondary" href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer">Первая книга</a>
+        </div>
+      </div>
+
+      <figure class="hero-art reveal">
+        <img src="assets/brand/01-hero-threshold.svg" width="1600" height="1000" alt="Лайнарт-композиция: зелёная дверь, геометрия и порог" data-i18n-alt="heroAlt">
+      </figure>
+    </section>
+
+    <section class="section intro" id="cycle" aria-labelledby="cycle-title">
+      <div class="section-mark">一</div>
+      <div class="section-copy">
+        <p class="kicker" data-i18n="cycleKicker">цикл</p>
+        <h2 id="cycle-title" data-i18n="cycleTitle">Дверь здесь важнее стены.</h2>
+        <p data-i18n="cycleText">«Зелёная дверь» — это дуга книг о личности, связи и выборе. Технологии не отменяют человеческое; они только резче показывают, что именно нельзя заменить без потери смысла.</p>
+      </div>
+      <img class="branch branch-one" src="assets/ui/branch-peach.svg" width="640" height="210" alt="" aria-hidden="true">
+    </section>
+
+    <section class="section container-section" id="container" aria-labelledby="container-title">
+      <div class="container-panel reveal">
+        <div>
+          <p class="kicker">open edition</p>
+          <h2 id="container-title" data-i18n="containerTitle">Открытое издание как ветвящийся контейнер</h2>
+          <p data-i18n="containerText">Openbook — не витрина с одной финальной сборкой. Это контейнер, где рядом живут исходники, Markdown-версии, обложки, ветки, форки и будущие траектории чтения.</p>
+        </div>
+        <img src="assets/brand/02-hero-branching-container.svg" width="1400" height="900" loading="lazy" alt="Абстрактная схема ветвящегося контейнера" data-i18n-alt="containerAlt">
+      </div>
+    </section>
+
+    <section class="section books" id="books" aria-labelledby="books-title">
+      <div class="section-heading">
+        <p class="kicker">libri</p>
+        <h2 id="books-title" data-i18n="booksTitle">Семь книг в одной дуге</h2>
+      </div>
+
+      <div class="book-list">
+        <article class="book-card reveal">
+          <span>I / Ø</span>
+          <h3>OBLIVIO DUORUM</h3>
+          <p data-i18n="bookOneText">Архив, память, стёртые связи и первая дверь в корпус цикла.</p>
+          <a href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer" data-i18n="openLink">Открыть</a>
+        </article>
+        <article class="book-card reveal">
+          <span>II / Ø</span>
+          <h3>ARBOR EXILII</h3>
+          <p data-i18n="bookTwoText">Дерево изгнания, предел милосердия и дверь как ответственность.</p>
+          <a href="https://github.com/antonkurenkov/openbook/tree/main/2" target="_blank" rel="noreferrer" data-i18n="openLink">Открыть</a>
+        </article>
+        <article class="book-card reveal">
+          <span>IV / Ø</span>
+          <h3 data-i18n="bookFourTitle">ЗЕЛЁНАЯ ДВЕРЬ</h3>
+          <p data-i18n="bookFourText">Книга-порог: точка, где частная память, ветка архива и выбор сходятся в один знак.</p>
+          <a href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer" data-i18n="repoLink">Репозиторий</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section covers" id="covers" aria-labelledby="covers-title">
+      <div class="section-heading compact">
+        <p class="kicker">line art</p>
+        <h2 id="covers-title" data-i18n="coversTitle">Три обложки</h2>
+      </div>
+
+      <div class="cover-grid cover-grid-three">
+        <figure class="cover-tile reveal">
+          <button class="image-button" type="button" data-lightbox="assets/images/oblivio-duorum-lineart.jpg" aria-label="Открыть Oblivio Duorum крупно" data-i18n-aria="coverOneAria">
+            <img src="assets/images/oblivio-duorum-lineart.jpg" width="760" height="1140" loading="lazy" alt="Обложка Oblivio Duorum в чёрно-белом лайнарт-стиле" data-i18n-alt="coverOneAlt">
+          </button>
+          <figcaption>OBLIVIO DUORUM</figcaption>
+        </figure>
+        <figure class="cover-tile reveal featured-cover">
+          <button class="image-button" type="button" data-lightbox="assets/images/arbor-exilii-lineart.jpg" aria-label="Открыть Arbor Exilii крупно" data-i18n-aria="coverTwoAria">
+            <img src="assets/images/arbor-exilii-lineart.jpg" width="900" height="1272" loading="lazy" alt="Обложка Arbor Exilii в высоком ключе" data-i18n-alt="coverTwoAlt">
+          </button>
+          <figcaption>ARBOR EXILII</figcaption>
+        </figure>
+        <figure class="cover-tile reveal">
+          <button class="image-button" type="button" data-lightbox="https://raw.githubusercontent.com/antonkurenkov/openbook/main/cover.png" aria-label="Открыть обложку Зелёной двери крупно" data-i18n-aria="coverFourAria">
+            <img src="https://raw.githubusercontent.com/antonkurenkov/openbook/main/cover.png" width="900" height="1272" loading="lazy" alt="Обложка книги Зелёная дверь" data-i18n-alt="coverFourAlt">
+          </button>
+          <figcaption data-i18n="coverFourCaption">ЗЕЛЁНАЯ ДВЕРЬ</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section final-cta" aria-labelledby="final-title">
+      <img src="assets/ui/seal-peach.svg" width="220" height="220" loading="lazy" alt="" aria-hidden="true">
+      <div>
+        <p class="kicker">repo</p>
+        <h2 id="final-title" data-i18n="finalTitle">Читать, хранить, ветвить</h2>
+        <p data-i18n="finalText">Сайт ведёт к трём точкам: общий репозиторий цикла, отдельное издание первой книги и папка второй книги.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer">Openbook</a>
+          <a class="button button-secondary" href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer">Oblivio Duorum</a>
+          <a class="button button-secondary" href="https://github.com/antonkurenkov/openbook/tree/main/2" target="_blank" rel="noreferrer">Arbor Exilii</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span data-i18n="brand">ЗЕЛЁНАЯ ДВЕРЬ</span>
+    <a href="#top" data-i18n="toTop">Наверх</a>
+  </footer>
+
+  <dialog class="lightbox" data-lightbox-dialog aria-label="Просмотр изображения" data-i18n-aria="lightboxAria">
+    <button class="lightbox-close" type="button" data-lightbox-close aria-label="Закрыть" data-i18n-aria="closeAria">×</button>
+    <img data-lightbox-image alt="">
+  </dialog>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

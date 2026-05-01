@@ -2,14 +2,14 @@
 <html lang="ru" data-lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>ЗЕЛЁНАЯ ДВЕРЬ — openbook</title>
   <meta name="description" content="Сайт открытого цикла «Зелёная дверь»: книги, обложки, ветвящееся издание и репозиторий openbook.">
   <meta name="theme-color" content="#FAF8F3">
   <meta property="og:title" content="ЗЕЛЁНАЯ ДВЕРЬ">
   <meta property="og:description" content="Открытое издание, тонкая графика и ветвящийся контейнер книг.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/arbor-exilii-lineart.jpg">
+  <meta property="og:image" content="assets/images/arbor-exilii-lineart.png">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -42,7 +42,7 @@
         <p class="hero-lead" data-i18n="heroLead">Научно-футуристический цикл о человеке, памяти и выборе в мире, где почти всё можно заменить.</p>
         <div class="hero-actions" aria-label="Основные ссылки" data-i18n-aria="primaryLinksAria">
           <a class="button button-primary" href="https://github.com/antonkurenkov/openbook" target="_blank" rel="noreferrer" data-i18n="ctaOpenbook">Открыть openbook</a>
-          <a class="button button-secondary" href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer">Первая книга</a>
+          <a class="button button-secondary" href="https://github.com/antonkurenkov/oblivio.duorum" target="_blank" rel="noreferrer" data-i18n="ctaFirstBook">Первая книга</a>
         </div>
       </div>
 
@@ -52,13 +52,13 @@
     </section>
 
     <section class="section intro" id="cycle" aria-labelledby="cycle-title">
-      <div class="section-mark">一</div>
+      <div class="section-mark" aria-hidden="true">一</div>
       <div class="section-copy">
         <p class="kicker" data-i18n="cycleKicker">цикл</p>
         <h2 id="cycle-title" data-i18n="cycleTitle">Дверь здесь важнее стены.</h2>
         <p data-i18n="cycleText">«Зелёная дверь» — это дуга книг о личности, связи и выборе. Технологии не отменяют человеческое; они только резче показывают, что именно нельзя заменить без потери смысла.</p>
       </div>
-      <img class="branch branch-one" src="assets/ui/branch-peach.svg" width="640" height="210" alt="" aria-hidden="true">
+      <img class="branch branch-one" src="assets/ui/branch-peach.svg" width="640" height="210" alt="" aria-hidden="true" loading="lazy">
     </section>
 
     <section class="section container-section" id="container" aria-labelledby="container-title">
@@ -108,20 +108,20 @@
 
       <div class="cover-grid cover-grid-three">
         <figure class="cover-tile reveal">
-          <button class="image-button" type="button" data-lightbox="assets/images/oblivio-duorum-lineart.jpg" aria-label="Открыть Oblivio Duorum крупно" data-i18n-aria="coverOneAria">
-            <img src="assets/images/oblivio-duorum-lineart.jpg" width="760" height="1140" loading="lazy" alt="Обложка Oblivio Duorum в чёрно-белом лайнарт-стиле" data-i18n-alt="coverOneAlt">
+          <button class="image-button" type="button" data-lightbox="assets/images/oblivio-duorum-lineart.png" aria-label="Открыть Oblivio Duorum крупно" data-i18n-aria="coverOneAria">
+            <img src="assets/images/oblivio-duorum-lineart.png" width="760" height="1140" loading="lazy" alt="Обложка Oblivio Duorum в чёрно-белом лайнарт-стиле" data-i18n-alt="coverOneAlt">
           </button>
           <figcaption>OBLIVIO DUORUM</figcaption>
         </figure>
         <figure class="cover-tile reveal featured-cover">
-          <button class="image-button" type="button" data-lightbox="assets/images/arbor-exilii-lineart.jpg" aria-label="Открыть Arbor Exilii крупно" data-i18n-aria="coverTwoAria">
-            <img src="assets/images/arbor-exilii-lineart.jpg" width="900" height="1272" loading="lazy" alt="Обложка Arbor Exilii в высоком ключе" data-i18n-alt="coverTwoAlt">
+          <button class="image-button" type="button" data-lightbox="assets/images/arbor-exilii-lineart.png" aria-label="Открыть Arbor Exilii крупно" data-i18n-aria="coverTwoAria">
+            <img src="assets/images/arbor-exilii-lineart.png" width="900" height="1272" loading="lazy" alt="Обложка Arbor Exilii в высоком ключе" data-i18n-alt="coverTwoAlt">
           </button>
           <figcaption>ARBOR EXILII</figcaption>
         </figure>
         <figure class="cover-tile reveal">
-          <button class="image-button" type="button" data-lightbox="https://raw.githubusercontent.com/antonkurenkov/openbook/main/cover.png" aria-label="Открыть обложку Зелёной двери крупно" data-i18n-aria="coverFourAria">
-            <img src="https://raw.githubusercontent.com/antonkurenkov/openbook/main/cover.png" width="900" height="1272" loading="lazy" alt="Обложка книги Зелёная дверь" data-i18n-alt="coverFourAlt">
+          <button class="image-button" type="button" data-lightbox="assets/images/green-door-cover.jpg" aria-label="Открыть обложку Зелёной двери крупно" data-i18n-aria="coverFourAria">
+            <img src="assets/images/green-door-cover.jpg" width="900" height="1272" loading="lazy" alt="Обложка книги Зелёная дверь" data-i18n-alt="coverFourAlt">
           </button>
           <figcaption data-i18n="coverFourCaption">ЗЕЛЁНАЯ ДВЕРЬ</figcaption>
         </figure>
